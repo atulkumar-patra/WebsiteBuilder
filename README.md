@@ -10,4 +10,4 @@ TO DO list:
 * add more html elements
 
 #Looking to help?
-*email me at kelleyblackmore@gmail.com
+email me at kelleyblackmore@gmail.com
