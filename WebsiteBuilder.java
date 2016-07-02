@@ -1,3 +1,8 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package websitebuilder;
 
 import java.awt.BorderLayout;
@@ -22,30 +27,12 @@ import javax.swing.JTextField;
  */
 public class WebsiteBuilder {
 
-    public static void frame() {
-        JTextField numguests = new JTextField(8);
-        JFrame frame = new JFrame("WebSite Builder");
-        JPanel panel = new JPanel();
-        panel.setLayout(new FlowLayout());
-        JLabel label = new JLabel("test");
-        JLabel label2 = new JLabel("Html");
-        JButton button = new JButton();
+    
 
-        button.setText("Press me");
-        panel.add(label);
-        panel.add(label2);
-        panel.setAlignmentX(50);
-        panel.add(button);
-        frame.add(panel);
-        frame.setSize(500, 500);
-        frame.setLocationRelativeTo(null);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setVisible(true);
-        panel.add(numguests);
-
-    }
+    
 
     public static void Htmlwriter() throws IOException {
+        System.out.println("it's working");
         String fileName;
         fileName = "index";
         File file = new File("\\\\eawphx.edatwork.com\\profile$\\kris.kelley\\Desktop\\test\\" + fileName + ".html");
@@ -92,11 +79,6 @@ public class WebsiteBuilder {
     //    System.out.print(c); //prints the characters one by one
     //}
     //}
-    public static void main(String[] args) throws FileNotFoundException, IOException {
-        frame();
-        //Htmlwriter();
-        //CSSwriter();
-
-    }
+   
 
 }
