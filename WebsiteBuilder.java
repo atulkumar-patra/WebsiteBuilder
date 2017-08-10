@@ -35,7 +35,7 @@ public class WebsiteBuilder {
         System.out.println("it's working");
         String fileName;
         fileName = "index";
-        File file = new File("\\\\eawphx.edatwork.com\\profile$\\kris.kelley\\Desktop\\test\\" + fileName + ".html");
+        File file = new File("\" + fileName + ".html");
         // creates the file
         file.createNewFile();
         // creates a FileWriter Object
@@ -56,7 +56,7 @@ public class WebsiteBuilder {
     public static void CSSwriter() throws IOException {
         String fileName;
         fileName = "main";
-        File file = new File("\\\\eawphx.edatwork.com\\profile$\\kris.kelley\\Desktop\\test\\" + fileName + ".css");
+        File file = new File("\" + fileName + ".css");
         // creates the file
         file.createNewFile();
         // creates a FileWriter Object
