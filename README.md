@@ -9,5 +9,3 @@ TO DO list:
 * add more css style choices
 * add more html elements
 
-#Looking to help?
-email me at kelleyblackmore@gmail.com
